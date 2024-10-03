@@ -1,11 +1,11 @@
 # Задание номер 3
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-   #Не знал какое имя дать, пусть будет my-app
-  name: my-app
-  labels:
-    app: my-app
+   apiVersion: apps/v1
+   kind: Deployment
+   metadata:
+      #Не знал какое имя дать, пусть будет my-app
+     name: my-app
+     labels:
+       app: my-app
 spec:
   replicas: 3  # Согласно условию задачи, 3 подов достаточно для справления с нагрузкой
   selector:
