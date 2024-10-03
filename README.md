@@ -1,3 +1,4 @@
+# Задание номер 3
 apiVersion: apps/v1
 kind: Deployment
 metadata:
