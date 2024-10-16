@@ -7,7 +7,7 @@ public class Circle : IShape
     {
         if(radius <= 0)
         {
-            throw new ArgumentException("Радиус круга должен быть больше нуля");
+            throw new ArgumentException("Circle radius has to be greater than zero");
         }
         _radius = radius;
     }
